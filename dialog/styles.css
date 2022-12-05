@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+}
+.main-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.avatar-container{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+}
+.avatar-container button{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: #495057;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+.avatar-container img{
+    width: 100%;
+}
+
+
+dialog{
+    width: 320px;
+    min-height: 200px;
+    background: #212529;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    overflow: hidden;
+}
+.dialog-header{
+    display: flex;
+    height: 90px;
+    background: #495057;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+    margin: bottom 50%;
+    margin: left 80%;
+}
+.dialog-header svg{
+    stroke: #fff;
+    fill: transparent;
+}
+.dialog-title{
+    font-size: 16px;
+    color: #ffffff;
+}
+.cancel-btn{
+    width: 30%;
+    height: 99%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    color: blue;
+    
+}
+.confirm-btn{
+    width: 30%;
+    height: 99%;
+    margin-left: 10%;
+    color: red;
+}
